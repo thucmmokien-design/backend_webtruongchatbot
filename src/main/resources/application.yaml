@@ -18,3 +18,10 @@ jwt:
   signerKey: "YXBwbGljYXRpb25zZWN1cml0eWtleWZvcmp3dHRva2VuZ2VuZXJhdGlvbjEyMzQ1Njc4OTA="
   valid-duration: 5000
   refreshable-duration: 120
+
+vnpay:
+  url: https://sandbox.vnpayment.vn/paymentv2/vpcpay.html
+  tmn-code: YOUR_TMN_CODE_HERE
+  secret-key: YOUR_SECRET_KEY_HERE
+  return-url: http://localhost:8080/api/vnpay/return
+  api-url: https://sandbox.vnpayment.vn/merchant_webapi/api/transaction
