@@ -12,8 +12,8 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public enum ErrorCode {
-    USER_NOTEXISTED(201,"User notexisted"),
-    UNAUTHENTICATED(401, "Unauthenticated"),
+    USER_NOTEXISTED(201,"Vui lòng kiểm tra lại thông tin đăng nhập !"),
+    UNAUTHENTICATED(401, "Vui lòng kiểm tra lại thông tin đăng nhập !"),
     UNAUTHORIZED(403, "You do not have permission"),
     INVALID_PASSWORD(400, "Invalid password")
     ;
